@@ -14,6 +14,6 @@ int main(){
 
     char grade;
     printf("Please enter your garde :");
-    scanf("%c", &grade); // we use %lf
+    scanf(" %c", &grade); // we use %lf
     printf("Your grade is %c\n", grade);
 }
